@@ -1,0 +1,26 @@
+{
+    "name": "Share Url",
+    "description" : "Share URL",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["jquery.js","background.js"],
+      "persistent": false
+    },
+    "permissions": ["storage","contextMenus","tabs"],
+    // "permissions": ["storage","contextMenus","tabs","<all_urls>"],
+    "browser_action": {
+      // "default_popup": "welcome.html",
+      "default_icon": "hello_extensions.png"
+    },
+    "options_page":"options.html"
+    //   "content_scripts": [
+    //     {
+    //     "matches": [
+    //         "http://*/*",
+    //         "https://*/*"
+    //         ],
+    //     "js": ["jquery.js","option.js"]
+    //     }
+    // ] 
+  }
